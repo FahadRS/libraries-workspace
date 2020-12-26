@@ -1,0 +1,30 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/lib",
+    "rootDir": "../ng-core",
+    "target": "es2015",
+    "baseUrl": "../ng-core",
+    "declaration": true,
+    "inlineSources": true,
+    "types": [],
+    "lib": [
+      "dom",
+      "es2018"
+    ],
+    "paths" : {    
+      "@ng-core/services/*" : ["src/services/*"],     
+      "@ng-core/models/*" : ["src/models/*"]     
+    }
+  },
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "enableResourceInlining": true
+  },  
+  "exclude": [
+    "src/test.ts",
+    "**/*.spec.ts"
+  ]
+}
