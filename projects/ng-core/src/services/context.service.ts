@@ -5,4 +5,8 @@ import { Injectable } from '@angular/core';
 export class ContextService {
 
   constructor() { }
+
+  public testFunction() : string {
+    return "pakistan is best";
+  }
 }

@@ -1,13 +1,12 @@
 {
-  "name": "ng-core/services",
-  "version": "1.0.0",
+  "name": "services",
   "description": "Services for the Angular Bootstrap",
   "private": true,
   "ngPackage": {
-    "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",
+    "$schema": "../../../../node_modules/ng-packagr/ng-package.schema.json",
     "lib": {
       "entryFile": "public-api.ts"
     },
-    "dest": "../../../dist/services"
+    "dest": "../../../../dist/services"
   }
 }
